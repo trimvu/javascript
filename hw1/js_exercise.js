@@ -20,10 +20,18 @@
 //     else {
 //         return "Hello, " + name + "!";
 //     }
+//      // another moethod
+        // if (name.length > 0) {
+        //     console.log("Hello, " + name + "!");
+        // }
+        // else {
+        //     console.log('Hello, World!')
+        // }
 // }
 
 // console.log(hello());
-
+//  // alternative method
+// hello();
 
 //? Madlib
 

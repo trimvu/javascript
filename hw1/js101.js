@@ -99,23 +99,23 @@
 
 //? Long-long Vowels
 
-let index = 0;
+// let index = 0;
 
-function longLong(word) {
-    let charArr = word.split('');
+// function longLong(word) {
+//     let charArr = word.split('');
 
-    while (index < charArr.length) {
-        if (charArr[index] == charArr[index+1] && (charArr[index] == 'a' || charArr[index] == 'e' || charArr[index] == 'i' || charArr[index] == 'o' || charArr[index] == 'u' || charArr[index] == 'y')){
-            charArr.splice(index, 0, charArr[index].repeat(3));
-        }
-        index++
-    }
+//     while (index < charArr.length) {
+//         if (charArr[index] == charArr[index+1] && (charArr[index] == 'a' || charArr[index] == 'e' || charArr[index] == 'i' || charArr[index] == 'o' || charArr[index] == 'u' || charArr[index] == 'y')){
+//             charArr.splice(index, 0, charArr[index].repeat(3));
+//         }
+//         index++
+//     }
     
-    let joinWord = charArr.join('');
-    console.log(joinWord)
-}
+//     let joinWord = charArr.join('');
+//     console.log(joinWord)
+// }
 
-longLong('good') // goooood
+// longLong('good') // goooood
 // longLong('cheese') // cheeeeese
 // longLong('man') // man
 
